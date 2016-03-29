@@ -9,6 +9,7 @@
 # You'll probably want to write other methods, but this 
 # encapsulates the core dog logic
 def shakil_the_dog
+	puts "Woof"
 	loop do 
 		user_input = gets.chomp.downcase
 		case user_input
