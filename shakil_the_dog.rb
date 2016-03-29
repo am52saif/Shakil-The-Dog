@@ -13,7 +13,7 @@ def shakil_the_dog
 	loop do 
 		user_input = gets.chomp.downcase
 		case user_input
-		when"woof"
+		when "woof"
 			puts "woof\t"*3
 		when /shakil stop!?/
 			puts "Enjoy the moment of peace"
